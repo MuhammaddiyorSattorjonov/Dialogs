@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/alert_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/custom_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/fragment_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Picker Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/data_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Picker Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/time_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet Dialog"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/bottom_dialog"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/snackbar"/>
+
+
+</LinearLayout>
